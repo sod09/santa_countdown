@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Mountains+of+Christmas:wght@700&family=Poppins:wght@300&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: red;
+  color: white;
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  margin: 500px auto;
+}
+
+div {
+  padding: 100px;
+}
