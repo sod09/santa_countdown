@@ -17,6 +17,7 @@ const runFunction = setInterval(() => {
 
   const seconds = Math.floor((timeRemainingBeforeXmas % (1000 * 60 * 60)) / 1000);
 
+
   const dayDiv = document.querySelector(".day").innerHTML = `${days} days`;
 
   const hoursDiv = document.querySelector(".hours").innerHTML = ` ${hours} hours`;
@@ -33,7 +34,7 @@ const runFunction = setInterval(() => {
     dayDiv.innerHTML = "" ;
     minutesDiv.innerHTML = "" ;
     secondsDiv.innerHTML = "" ;
-    xmasDiv = `<div class="xmasishere"> FATHER CHRISTMAS IS HERE!</div>`
+    xmasDiv.innerHTML = `<div class="xmasishere"> FATHER CHRISTMAS IS HERE!</div>`
   }
 
 }, 1000)
