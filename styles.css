@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Mountains+of+Christmas:wght@700&family=Poppins:wght@300&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Mountains+of+Christmas:wght@700&family=Poppins:wght@300&display=swap");
 
 * {
   margin: 0;
@@ -8,17 +7,17 @@
 }
 
 body {
-  /* background-image: url("./pexels-giftpunditscom-1666068.jpg");
-  background-size: 100% 100%; */
   background-color: red;
   color: white;
-  font-family: 'Mountains of Christmas', cursive;
-  font-size: 120px;
+  font-family: "Mountains of Christmas", cursive;
+  font-size: 100px;
   display: flex;
   justify-content: center;
-  margin: 500px auto;
+
+  align-items: center;
+  margin: 300px auto;
 }
 
 div {
-  padding: 100px;
+  padding: 50px;
 }
