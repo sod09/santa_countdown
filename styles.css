@@ -7,10 +7,10 @@
 }
 
 body {
-  /* background-image: url("./pexels-giftpunditscom-1666068.jpg");
-  background-size: 100% 100%; */
-  background-color: red;
-  color: white;
+  background-image: url("./pexels-giftpunditscom-1666068.jpg");
+  background-size: 100% 100%;
+  /* background-color: red; */
+  color: black;
   font-family: "Mountains of Christmas", cursive;
   font-size: 100px;
 
