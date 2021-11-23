@@ -7,17 +7,30 @@
 }
 
 body {
+  /* background-image: url("./pexels-giftpunditscom-1666068.jpg");
+  background-size: 100% 100%; */
   background-color: red;
   color: white;
   font-family: "Mountains of Christmas", cursive;
   font-size: 100px;
-  display: flex;
-  justify-content: center;
 
   align-items: center;
   margin: 300px auto;
 }
 
-div {
+.title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.time {
   padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.out {
+  display: flex;
+  justify-content: center;
 }
