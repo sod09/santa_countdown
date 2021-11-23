@@ -7,10 +7,11 @@
 }
 
 body {
-  background-image: url("./pexels-giftpunditscom-1666068.jpg");
-  background-size: 100% 100%;
-  /* background-color: red; */
-  color: black;
+  /* background-image: url("./pexels-giftpunditscom-1666068.jpg");
+  background-size: 100% 100%; */
+  background-color: red;
+  color: white;
+  font-weight: bolder;
   font-family: "Mountains of Christmas", cursive;
   font-size: 100px;
 
@@ -34,3 +35,32 @@ body {
   display: flex;
   justify-content: center;
 }
+
+/* CANDY CANE STYLING */
+
+/* --color1: #1528ec;
+--color2: #ff0a0a;
+font-family: "Open Sans", sans-serif;
+text-align: center;
+font-size: 46px;
+background: repeating-linear-gradient(
+  45deg,
+  var(--color1),
+  var(--color1) 30px,
+  var(--color2) 30px,
+  var(--color2) 60px
+);
+background-clip: text;
+color: transparent;
+-webkit-background-clip: text;
+animation: 40s linear 0s infinite move;
+}
+
+@keyframes move {
+from {
+  background-position: 0px;
+}
+to {
+  background-position: 1000px;
+}
+} */
